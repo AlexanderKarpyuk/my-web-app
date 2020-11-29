@@ -14,7 +14,7 @@ import static java.util.Objects.isNull;
 
 @AllArgsConstructor
 @Service
-public class DefaultUserService implements UserService{
+public class DefaultUserService implements UserService {
     private final UserConverter userConverter;
     private final UsersRepository usersRepository;
 
