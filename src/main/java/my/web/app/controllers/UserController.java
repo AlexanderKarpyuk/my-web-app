@@ -16,6 +16,7 @@ import java.util.List;
 @Log
 public class UserController {
     private final UserService userService;
+
     @PostMapping("/save")
     public UserDto saveUser(@RequestBody UserDto userDto) throws ValidationException {
         log.info("Handling save users: " + userDto);
